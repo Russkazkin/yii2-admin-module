@@ -43,10 +43,10 @@ GlyphiconAsset::register($this);
     ]);
     $menuItems = [
         ['label' => Yii::t('app', 'Home'), 'url' => ['/site/index']],
-        ['label' => Blog::t('blog', 'Article'), 'url' => ['/blog/article']],
-        ['label' => Blog::t('blog', 'Comment'), 'url' => ['/blog/comment']],
-        ['label' => Blog::t('blog', 'Category'), 'url' => ['/blog/category']],
-        ['label' => Blog::t('blog', 'Tag'), 'url' => ['/blog/tag']],
+        ['label' => Blog::t('blog', 'Article'), 'url' => ['/blog/article/index']],
+        ['label' => Blog::t('blog', 'Comment'), 'url' => ['/blog/comment/index']],
+        ['label' => Blog::t('blog', 'Category'), 'url' => ['/blog/category/index']],
+        ['label' => Blog::t('blog', 'Tag'), 'url' => ['/blog/tag/index']],
     ];
     if (Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => Yii::t('app', 'Sign In'), 'url' => ['/auth/sign-in']];
