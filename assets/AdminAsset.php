@@ -26,7 +26,7 @@ class AdminAsset extends AssetBundle
         parent::init();
         $this->publishOptions['beforeCopy'] = function ($from, $to) {
             $dirname = basename(dirname($from));
-            return $dirname === 'fonts' || $dirname === 'img';
+            return $dirname === 'fonts';
         };
     }
 

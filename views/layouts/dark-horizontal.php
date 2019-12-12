@@ -91,7 +91,7 @@ AdminAsset::register($this);
                             <!-- item-->
                             <a href="javascript:void(0);" class="dropdown-item notify-item active">
                                 <div class="notify-icon">
-                                    <img src="assets/images/users/user-1.jpg" class="img-fluid rounded-circle" alt="" /> </div>
+                                    <img src="temp/users/user-1.jpg" class="img-fluid rounded-circle" alt="" /> </div>
                                 <p class="notify-details">Cristina Pride</p>
                                 <p class="text-muted mb-0 user-msg">
                                     <small>Hi, How are you? What about our next meeting</small>
@@ -111,7 +111,7 @@ AdminAsset::register($this);
                             <!-- item-->
                             <a href="javascript:void(0);" class="dropdown-item notify-item">
                                 <div class="notify-icon">
-                                    <img src="assets/images/users/user-4.jpg" class="img-fluid rounded-circle" alt="" /> </div>
+                                    <img src="temp/users/user-4.jpg" class="img-fluid rounded-circle" alt="" /> </div>
                                 <p class="notify-details">Karen Robinson</p>
                                 <p class="text-muted mb-0 user-msg">
                                     <small>Wow ! this admin looks good and awesome design</small>
@@ -161,7 +161,7 @@ AdminAsset::register($this);
 
                 <li class="dropdown notification-list">
                     <a class="nav-link dropdown-toggle nav-user mr-0 waves-effect" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                        <img src="assets/images/users/user-1.jpg" alt="user-image" class="rounded-circle">
+                        <img src="temp/users/user-1.jpg" alt="user-image" class="rounded-circle">
                         <span class="pro-user-name ml-1">
                                     Nowak <i class="mdi mdi-chevron-down"></i>
                                 </span>
@@ -213,12 +213,12 @@ AdminAsset::register($this);
             <div class="logo-box">
                 <a href="index.html" class="logo text-center">
                             <span class="logo-lg">
-                                <img src="assets/images/logo-light.png" alt="" height="18">
+                                <img src="temp/logo-light.png" alt="" height="18">
                                 <!-- <span class="logo-lg-text-light">UBold</span> -->
                             </span>
                     <span class="logo-sm">
                                 <!-- <span class="logo-sm-text-dark">U</span> -->
-                                <img src="assets/images/logo-sm.png" alt="" height="24">
+                                <img src="temp/logo-sm.png" alt="" height="24">
                             </span>
                 </a>
             </div>
@@ -574,7 +574,7 @@ AdminAsset::register($this);
         <!-- User box -->
         <div class="user-box">
             <div class="user-img">
-                <img src="assets/images/users/user-1.jpg" alt="user-img" title="Mat Helme" class="rounded-circle img-fluid">
+                <img src="temp/users/user-1.jpg" alt="user-img" title="Mat Helme" class="rounded-circle img-fluid">
                 <a href="javascript:void(0);" class="user-edit"><i class="mdi mdi-pencil"></i></a>
             </div>
 
@@ -627,28 +627,28 @@ AdminAsset::register($this);
         <div class="p-3">
             <div class="inbox-widget">
                 <div class="inbox-item">
-                    <div class="inbox-item-img"><img src="assets/images/users/user-2.jpg" class="rounded-circle" alt=""></div>
+                    <div class="inbox-item-img"><img src="temp/users/user-2.jpg" class="rounded-circle" alt=""></div>
                     <p class="inbox-item-author"><a href="javascript: void(0);" class="text-dark">Tomaslau</a></p>
                     <p class="inbox-item-text">I've finished it! See you so...</p>
                 </div>
                 <div class="inbox-item">
-                    <div class="inbox-item-img"><img src="assets/images/users/user-3.jpg" class="rounded-circle" alt=""></div>
+                    <div class="inbox-item-img"><img src="temp/users/user-3.jpg" class="rounded-circle" alt=""></div>
                     <p class="inbox-item-author"><a href="javascript: void(0);" class="text-dark">Stillnotdavid</a></p>
                     <p class="inbox-item-text">This theme is awesome!</p>
                 </div>
                 <div class="inbox-item">
-                    <div class="inbox-item-img"><img src="assets/images/users/user-4.jpg" class="rounded-circle" alt=""></div>
+                    <div class="inbox-item-img"><img src="temp/users/user-4.jpg" class="rounded-circle" alt=""></div>
                     <p class="inbox-item-author"><a href="javascript: void(0);" class="text-dark">Kurafire</a></p>
                     <p class="inbox-item-text">Nice to meet you</p>
                 </div>
 
                 <div class="inbox-item">
-                    <div class="inbox-item-img"><img src="assets/images/users/user-5.jpg" class="rounded-circle" alt=""></div>
+                    <div class="inbox-item-img"><img src="temp/users/user-5.jpg" class="rounded-circle" alt=""></div>
                     <p class="inbox-item-author"><a href="javascript: void(0);" class="text-dark">Shahedk</a></p>
                     <p class="inbox-item-text">Hey! there I'm available...</p>
                 </div>
                 <div class="inbox-item">
-                    <div class="inbox-item-img"><img src="assets/images/users/user-6.jpg" class="rounded-circle" alt=""></div>
+                    <div class="inbox-item-img"><img src="temp/users/user-6.jpg" class="rounded-circle" alt=""></div>
                     <p class="inbox-item-author"><a href="javascript: void(0);" class="text-dark">Adhamdannaway</a></p>
                     <p class="inbox-item-text">This theme is awesome!</p>
                 </div>
