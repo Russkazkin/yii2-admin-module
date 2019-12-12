@@ -10,7 +10,7 @@ class Module extends \yii\base\Module
     /**
      * {@inheritdoc}
      */
-    public $layout = '@app/modules/admin/views/layouts/admin.php';
+    public $layout = '@app/modules/admin/views/layouts/dark-horizontal';
     public $controllerNamespace = 'app\modules\admin\controllers';
 
     /**
