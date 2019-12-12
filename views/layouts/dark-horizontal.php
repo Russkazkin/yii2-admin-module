@@ -1,22 +1,36 @@
+<?php
+
+use app\modules\admin\assets\AdminAsset;
+use yii\helpers\Html;
+
+
+/* @var $this \yii\web\View */
+/* @var $content string */
+
+AdminAsset::register($this);
+
+?>
+<?php $this->beginPage() ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<?= Yii::$app->language ?>">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="<?= Yii::$app->charset ?>" />
     <title>Adminto - Responsive Admin Dashboard Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
-    <meta content="Coderthemes" name="author" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <?php $this->registerCsrfMetaTags() ?>
+    <title><?= Html::encode($this->title) ?></title>
+    <?php $this->head() ?>
     <!-- App favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
 
     <!-- App css -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!--<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />-->
 
 </head>
-
+<?php $this->beginBody() ?>
 <body>
 
 <!-- Navigation Bar-->
@@ -649,10 +663,11 @@
 <div class="rightbar-overlay"></div>
 
 <!-- Vendor js -->
-<script src="assets/js/vendor.min.js"></script>
+<!--<script src="assets/js/vendor.min.js"></script>-->
 
 <!-- App js-->
-<script src="assets/js/app.min.js"></script>
-
+<!--<script src="assets/js/app.min.js"></script>-->
+<?php $this->endBody() ?>
 </body>
 </html>
+<?php $this->endPage() ?>
