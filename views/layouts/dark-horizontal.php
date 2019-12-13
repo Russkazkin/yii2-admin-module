@@ -189,10 +189,12 @@ AdminAsset::register($this);
                         <div class="dropdown-divider"></div>
 
                         <!-- item-->
-                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                        <?= Html::beginForm(['/auth/logout'], 'post'); ?>
+                        <button type="submit" class="dropdown-item notify-item">
                             <i class="fe-log-out"></i>
                             <span>Logout</span>
-                        </a>
+                        </button>
+                        <?= Html::endForm(); ?>
 
                     </div>
                 </li>
