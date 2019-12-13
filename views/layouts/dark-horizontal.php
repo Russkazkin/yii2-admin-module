@@ -207,7 +207,7 @@ AdminAsset::register($this);
 
             <!-- LOGO -->
             <div class="logo-box">
-                <a href="index.html" class="logo text-center">
+                <a href="/admin" class="logo text-center">
                             <span class="logo-lg">
                                 <img src="/temp/logo-light.png" alt="" height="18">
                                 <!-- <span class="logo-lg-text-light">UBold</span> -->
