@@ -536,6 +536,9 @@ AdminAsset::register($this);
 
 
     </div> <!-- end container -->
+    <div class="container-fluid">
+        <?= $content ?>
+    </div>
 </div>
 <!-- end wrapper -->
 
