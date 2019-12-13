@@ -1,8 +1,8 @@
 <?php
 
-use app\assets\AppAsset;
 use app\modules\admin\assets\AdminAsset;
 use yii\helpers\Html;
+use yii\widgets\Breadcrumbs;
 
 
 /* @var $this \yii\web\View */
@@ -24,11 +24,6 @@ AdminAsset::register($this);
     <?php $this->head() ?>
     <!-- App favicon -->
     <link rel="shortcut icon" href="/temp/favicon.ico">
-
-    <!-- App css -->
-    <!--<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
-    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />-->
 
 </head>
 <?php $this->beginBody() ?>
@@ -523,13 +518,22 @@ AdminAsset::register($this);
             <div class="col-12">
                 <div class="page-title-box">
                     <div class="page-title-right">
-                        <ol class="breadcrumb m-0">
-                            <li class="breadcrumb-item"><a href="javascript: void(0);">Adminto</a></li>
-                            <li class="breadcrumb-item"><a href="javascript: void(0);">Pages</a></li>
-                            <li class="breadcrumb-item active">Starter Page</li>
-                        </ol>
+                        <?php
+                        echo Breadcrumbs::widget([
+                            'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+                            'options' => [
+                                'class' => 'breadcrumb m-0'
+                            ],
+                            'tag' => 'ol',
+                            'itemTemplate' => '<li class="breadcrumb-item">{link}</li>',
+                            'activeItemTemplate' => '<li class="breadcrumb-item active">{link}</li>',
+                            'homeLink' => [
+                                'label' => 'Admin',
+                                'url' => '/admin',
+                            ]
+                        ]); ?>
                     </div>
-                    <h4 class="page-title">Starter Page</h4>
+                    <h4 class="page-title"><?= Html::encode($this->title) ?></h4>
                 </div>
             </div>
         </div>
@@ -666,11 +670,6 @@ AdminAsset::register($this);
 <!-- Right bar overlay-->
 <div class="rightbar-overlay"></div>
 
-<!-- Vendor js -->
-<!--<script src="assets/js/vendor.min.js"></script>-->
-
-<!-- App js-->
-<!--<script src="assets/js/app.min.js"></script>-->
 <?php $this->endBody() ?>
 </body>
 </html>
