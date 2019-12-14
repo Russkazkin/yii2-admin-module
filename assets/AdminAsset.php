@@ -29,5 +29,8 @@ class AdminAsset extends AssetBundle
             return $dirname === 'fonts';
         };
     }
+    public $depends = [
+        'yii\web\YiiAsset',
+    ];
 
 }
