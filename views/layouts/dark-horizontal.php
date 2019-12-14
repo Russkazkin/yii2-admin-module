@@ -236,68 +236,46 @@ AdminAsset::register($this);
                     </li>
 
                     <li class="has-submenu">
-                        <a href="#"> <i class="mdi mdi-invert-colors"></i>User Interface  <div class="arrow-down"></div></a>
-                        <ul class="submenu megamenu">
-                            <li>
-                                <ul>
+                        <a href="#"> <i class="mdi mdi-book-open-page-variant"></i>Blog  <div class="arrow-down"></div></a>
+                        <ul class="submenu">
+                            <li class="has-submenu">
+                                <a href="/admin/blog/article/index">Articles <div class="arrow-down"></div></a>
+                                <ul class="submenu">
                                     <li>
-                                        <a href="ui-buttons.html">Buttons</a>
+                                        <a href="/admin/blog/article/index">List</a>
                                     </li>
                                     <li>
-                                        <a href="ui-cards.html">Cards</a>
+                                        <a href="/admin/blog/article/create">Create</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="#">Tables <div class="arrow-down"></div></a>
+                                <ul class="submenu">
+                                    <li>
+                                        <a href="tables-basic.html">Basic Tables</a>
                                     </li>
                                     <li>
-                                        <a href="ui-draggable-cards.html">Draggable Cards</a>
+                                        <a href="tables-datatable.html">Data Tables</a>
                                     </li>
                                     <li>
-                                        <a href="ui-checkbox-radio.html">Checkboxs-Radios</a>
+                                        <a href="tables-responsive.html">Responsive Table</a>
                                     </li>
                                     <li>
-                                        <a href="ui-material-icons.html">Material Design Icons</a>
+                                        <a href="tables-editable.html">Editable Table</a>
                                     </li>
                                     <li>
-                                        <a href="ui-font-awesome-icons.html">Font Awesome</a>
+                                        <a href="tables-tablesaw.html">Tablesaw Table</a>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <ul>
-                                    <li>
-                                        <a href="ui-dripicons.html">Dripicons</a>
-                                    </li>
-                                    <li>
-                                        <a href="ui-themify-icons.html">Themify Icons</a>
-                                    </li>
-                                    <li>
-                                        <a href="ui-modals.html">Modals</a>
-                                    </li>
-                                    <li>
-                                        <a href="ui-notification.html">Notification</a>
-                                    </li>
-                                    <li>
-                                        <a href="ui-range-slider.html">Range Slider</a>
-                                    </li>
-                                    <li>
-                                        <a href="ui-components.html">Components</a>
-                                    </li>
-                                </ul>
+                                <a href="calendar.html">Calendar</a>
                             </li>
                             <li>
-                                <ul>
-                                    <li>
-                                        <a href="ui-sweetalert.html">Sweet Alert</a>
-                                    </li>
-                                    <li>
-                                        <a href="ui-treeview.html">Tree view</a>
-                                    </li>
-                                    <li>
-                                        <a href="ui-widgets.html">Widgets</a>
-                                    </li>
-                                    <li>
-                                        <a href="ui-typography.html">Typography</a>
-                                    </li>
-                                </ul>
+                                <a href="inbox.html">Mail</a>
                             </li>
+
                         </ul>
                     </li>
 
