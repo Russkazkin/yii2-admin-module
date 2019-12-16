@@ -16,11 +16,10 @@ AdminAsset::register($this);
 <html lang="<?= Yii::$app->language ?>">
 <head>
     <meta charset="<?= Yii::$app->charset ?>" />
-    <title>Adminto - Responsive Admin Dashboard Template</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <?php $this->registerCsrfMetaTags() ?>
-    <title><?= Html::encode($this->title) ?></title>
+    <title>Admin Panel | <?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
     <!-- App favicon -->
     <link rel="shortcut icon" href="/temp/favicon.ico">
