@@ -246,6 +246,11 @@ AdminAsset::register($this);
                                     <li>
                                         <a href="/admin/blog/article/create">Create</a>
                                     </li>
+                                    <?php if ($this->params['adminPermissions']): ?>
+                                    <li>
+                                        <a href="/admin/blog/article/grid">Grid</a>
+                                    </li>
+                                    <?php endif; ?>
                                 </ul>
                             </li>
                             <li class="has-submenu">
