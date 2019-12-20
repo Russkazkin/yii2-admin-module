@@ -12,11 +12,11 @@ class NotificationWidget extends Widget
     public $type = 'success';
     public $message = 'it works!';
     public $options = [
-        'closeButton' => false,
+        'closeButton' => true,
         'debug' => false,
         'newestOnTop' => false,
         'progressBar' => false,
-        'positionClass' => 'toast-top-right',
+        'positionClass' => 'toast-top-full-width',
         'preventDuplicates' => false,
         'onclick' => null,
         'showDuration' => '500',
@@ -38,8 +38,8 @@ class NotificationWidget extends Widget
     public function run()
     {
         $this->view->registerJs('
-            Command: toastr[type](message);
-            toastr.options = options;
+            toastr.options = options
+            Command: toastr[type](message)
         ');
         return $this->render('notification', [
             'type' => $this->type,
