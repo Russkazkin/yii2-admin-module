@@ -1,6 +1,7 @@
 <?php
 
 use app\modules\admin\assets\AdminAsset;
+use app\modules\admin\widgets\notification\NotificationWidget;
 use yii\helpers\Html;
 use yii\widgets\Breadcrumbs;
 
@@ -653,7 +654,7 @@ AdminAsset::register($this);
 
 <!-- Right bar overlay-->
 <div class="rightbar-overlay"></div>
-
+<?= NotificationWidget::widget(); ?>
 <?php $this->endBody() ?>
 </body>
 </html>
