@@ -15,6 +15,7 @@ class DataTablesAsset extends AssetBundle
         'libs/datatables/responsive.bootstrap4.css',
         'libs/datatables/buttons.bootstrap4.css',
         'libs/datatables/select.bootstrap4.css',
+        'css/tables-custom.css',
     ];
 
     public $js = [
