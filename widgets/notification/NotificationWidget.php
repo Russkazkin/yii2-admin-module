@@ -5,12 +5,12 @@ namespace app\modules\admin\widgets\notification;
 
 
 use app\modules\admin\widgets\notification\assets\NotificationWidgetAsset;
+use Yii;
 use yii\base\Widget;
 
 class NotificationWidget extends Widget
 {
-    public $type = 'success';
-    public $message = 'it works!';
+    public $flashes;
     public $options = [
         'closeButton' => true,
         'debug' => false,
@@ -32,6 +32,7 @@ class NotificationWidget extends Widget
     public function init()
     {
         parent::init();
+        $this->flashes = Yii::$app->session->getAllFlashes();
         NotificationWidgetAsset::register($this->view);
     }
 
@@ -39,12 +40,13 @@ class NotificationWidget extends Widget
     {
         $this->view->registerJs('
             toastr.options = options
-            Command: toastr[type](message)
+            for (key in flashes){
+                Command: toastr[key](flashes[key]);
+            }
         ');
         return $this->render('notification', [
-            'type' => $this->type,
-            'message' => $this->message,
             'options' => $this->options,
+            'flashes' => $this->flashes,
         ]);
     }
 }

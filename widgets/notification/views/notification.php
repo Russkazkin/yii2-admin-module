@@ -1,5 +1,5 @@
 <script>
-    let type = "<?= $type; ?>",
-        message = "<?= $message; ?>",
+    let flashes = <?= \yii\helpers\Json::htmlEncode($flashes); ?>,
         options = <?= \yii\helpers\Json::htmlEncode($options); ?>;
+        console.log(flashes);
 </script>
