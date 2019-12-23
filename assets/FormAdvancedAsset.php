@@ -17,4 +17,8 @@ class FormAdvancedAsset extends AssetBundle
     public $js = [
         'libs/select2.min.js'
     ];
+
+    public $depends = [
+        'yii\web\JqueryAsset',
+    ];
 }
