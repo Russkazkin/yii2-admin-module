@@ -18,6 +18,7 @@ class FormAdvancedAsset extends AssetBundle
     public $js = [
         'libs/select2/select2.min.js',
         'libs/multiselect/jquery.multi-select.js',
+        'js/init.js',
     ];
 
     public $depends = [

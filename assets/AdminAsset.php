@@ -19,7 +19,6 @@ class AdminAsset extends AssetBundle
     public $js = [
         'js/vendor.min.js',
         'js/app.min.js',
-        'js/init.js',
         ];
 
     public function init()
