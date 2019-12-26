@@ -14,6 +14,7 @@ class AdminAsset extends AssetBundle
         'css/app.min.css',
         'css/bootstrap.min.css',
         'css/icons.min.css',
+        'css/custom.css',
         ];
 
     public $js = [
