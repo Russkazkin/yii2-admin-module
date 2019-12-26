@@ -5,3 +5,6 @@
 .field-article-category_id .select2-container--default .select2-selection--single .select2-selection__placeholder {
     color: #777;
 }
+.field-article-category_id .select2-selection__clear {
+    display: none;
+}
