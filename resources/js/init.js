@@ -18,4 +18,13 @@ $(document).ready(function() {
         placement: 'top-left'
     });
 
+    $('.article-form #article-description').maxlength({
+        threshold: 128,
+        warningClass: "badge badge-success",
+        limitReachedClass: "badge badge-danger",
+        validate: true,
+        alwaysShow: true,
+        placement: 'top-left'
+    });
+
 });
