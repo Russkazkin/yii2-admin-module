@@ -11,3 +11,6 @@
 textarea {
     resize: none;
 }
+.field-article-content .ql-container {
+    height: 300px;
+}
