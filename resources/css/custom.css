@@ -8,3 +8,6 @@
 .field-article-category_id .select2-selection__clear {
     display: none;
 }
+textarea {
+    resize: none;
+}
