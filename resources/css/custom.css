@@ -14,3 +14,18 @@ textarea {
 .invalid-feedback {
     display: block;
 }
+.datepicker table tr th.dow,
+.datepicker table tr th.prev,
+.datepicker table tr th.next,
+.datepicker table tr th.datepicker-switch,
+.datepicker table tr td.day,
+.file-input .file-caption-name{
+    color: #adb5bd;
+}
+.datepicker table tr td, .datepicker table tr th {
+    width: 30px;
+    height: 30px;
+}
+.file-input .file-preview {
+    margin-bottom: 1rem;
+}
