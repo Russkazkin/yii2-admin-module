@@ -232,7 +232,7 @@ AdminAsset::register($this);
                 <ul class="navigation-menu">
 
                     <li class="has-submenu">
-                        <a href="index.html"><i class="mdi mdi-view-dashboard"></i>Dashboard</a>
+                        <a href="/admin"><i class="mdi mdi-view-dashboard"></i>Dashboard</a>
                     </li>
 
                     <li class="has-submenu">
