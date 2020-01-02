@@ -255,22 +255,13 @@ AdminAsset::register($this);
                                 </ul>
                             </li>
                             <li class="has-submenu">
-                                <a href="#">Tables <div class="arrow-down"></div></a>
+                                <a href="#">Categories <div class="arrow-down"></div></a>
                                 <ul class="submenu">
                                     <li>
-                                        <a href="tables-basic.html">Basic Tables</a>
+                                        <a href="/admin/blog/category/index">List</a>
                                     </li>
                                     <li>
-                                        <a href="tables-datatable.html">Data Tables</a>
-                                    </li>
-                                    <li>
-                                        <a href="tables-responsive.html">Responsive Table</a>
-                                    </li>
-                                    <li>
-                                        <a href="tables-editable.html">Editable Table</a>
-                                    </li>
-                                    <li>
-                                        <a href="tables-tablesaw.html">Tablesaw Table</a>
+                                        <a href="/admin/blog/category/create">Create</a>
                                     </li>
                                 </ul>
                             </li>
