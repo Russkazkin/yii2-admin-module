@@ -255,7 +255,7 @@ AdminAsset::register($this);
                                 </ul>
                             </li>
                             <li class="has-submenu">
-                                <a href="#">Categories <div class="arrow-down"></div></a>
+                                <a href="/admin/blog/category/index">Categories <div class="arrow-down"></div></a>
                                 <ul class="submenu">
                                     <li>
                                         <a href="/admin/blog/category/index">List</a>
@@ -265,13 +265,17 @@ AdminAsset::register($this);
                                     </li>
                                 </ul>
                             </li>
-                            <li>
-                                <a href="calendar.html">Calendar</a>
+                            <li class="has-submenu">
+                                <a href="/admin/blog/tag/index">Tags <div class="arrow-down"></div></a>
+                                <ul class="submenu">
+                                    <li>
+                                        <a href="/admin/blog/tag/index">List</a>
+                                    </li>
+                                    <li>
+                                        <a href="/admin/blog/tag/create">Create</a>
+                                    </li>
+                                </ul>
                             </li>
-                            <li>
-                                <a href="inbox.html">Mail</a>
-                            </li>
-
                         </ul>
                     </li>
 
