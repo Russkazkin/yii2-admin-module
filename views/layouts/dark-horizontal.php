@@ -254,6 +254,7 @@ AdminAsset::register($this);
                                     <?php endif; ?>
                                 </ul>
                             </li>
+                            <?php if ($this->params['editorPermissions']): ?>
                             <li class="has-submenu">
                                 <a href="/admin/blog/category/index">Categories <div class="arrow-down"></div></a>
                                 <ul class="submenu">
@@ -276,6 +277,7 @@ AdminAsset::register($this);
                                     </li>
                                 </ul>
                             </li>
+                            <?php endif; ?>
                         </ul>
                     </li>
 
