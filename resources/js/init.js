@@ -26,4 +26,13 @@ $(document).ready(function() {
         alwaysShow: true,
         placement: 'top-left'
     });
+
+    $('.category-form #category-title').maxlength({
+        threshold: 32,
+        warningClass: "badge badge-success",
+        limitReachedClass: "badge badge-danger",
+        validate: true,
+        alwaysShow: true,
+        placement: 'top-left'
+    });
 });
