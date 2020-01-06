@@ -34,7 +34,7 @@ $(document).ready(function () {
             },
             allowOutsideClick: () => !Swal.isLoading()
         }).then((result) => {
-                console.log(result.value);
+                //console.log(result.value);
                 if(!result.value) {
                     return false;
                 } else if (result.value.ok) {
