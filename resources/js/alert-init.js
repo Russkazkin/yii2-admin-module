@@ -49,6 +49,10 @@ function sweetAlert(target, url, list = true) {
                 });
                 if (list) {
                     $(this).parent().parent().remove();
+                } else {
+                    $('.card-box').html(
+                        '<h4 class="blog-item-deleted">This item was deleted</h4>'
+                    )
                 }
             } else {
                 Swal.fire({
