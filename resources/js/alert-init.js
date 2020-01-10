@@ -1,7 +1,8 @@
 $(document).ready(function () {
     sweetAlert('.category-list-delete', '/admin/blog/category/delete');
+    sweetAlert('#category-delete', '/admin/blog/category/delete', false);
 });
-function sweetAlert(target, url) {
+function sweetAlert(target, url, list = true) {
     $(target).on("click", function (event) {
         event.preventDefault();
         let id = $(this).data('id');
@@ -45,7 +46,9 @@ function sweetAlert(target, url) {
                     text: "Your file has been deleted.",
                     type: "success"
                 });
-                $(this).parent().parent().remove();
+                if (list) {
+                    $(this).parent().parent().remove();
+                }
             } else {
                 Swal.fire({
                     title: "Something went wrong",
