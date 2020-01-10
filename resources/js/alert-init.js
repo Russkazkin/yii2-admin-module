@@ -1,11 +1,10 @@
 $(document).ready(function () {
-    sweetAlert('.article-list-delete', '/admin/blog/article/delete');
+    sweetAlert('.category-list-delete', '/admin/blog/category/delete');
 });
 function sweetAlert(target, url) {
     $(target).on("click", function (event) {
         event.preventDefault();
         let id = $(this).data('id');
-        console.log(id);
         Swal.fire({
             title: "Are you sure?",
             text: "You won't be able to revert this!",
