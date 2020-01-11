@@ -2,6 +2,7 @@ $(document).ready(function () {
     sweetAlert('.category-list-delete', '/admin/blog/category/delete');
     sweetAlert('.tag-list-delete', '/admin/blog/tag/delete');
     sweetAlert('#category-delete', '/admin/blog/category/delete', false);
+    sweetAlert('#tag-delete', '/admin/blog/tag/delete', false);
 });
 function sweetAlert(target, url, list = true) {
     $(target).on("click", function (event) {
