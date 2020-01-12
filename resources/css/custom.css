@@ -29,3 +29,17 @@ textarea {
 .file-input .file-preview {
     margin-bottom: 1rem;
 }
+
+.page-title-box {
+    line-height: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.page-title-box .page-title {
+    line-height: unset;
+    padding-top: 5px;
+}
+
+.page-title-box .page-title-right {
+    margin-top: unset;
+}
