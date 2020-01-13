@@ -1,4 +1,4 @@
 $(document).ready(function(){
-    $('.article-list-img-link').magnificPopup({type:'image'});
+    $('.article-image-popup').magnificPopup({type:'image'});
 
 });
