@@ -32,7 +32,8 @@ class DataTablesAsset extends AssetBundle
         'libs/datatables/dataTables.select.min.js',
         'libs/pdfmake/pdfmake.min.js',
         'libs/pdfmake/vfs_fonts.js',
-        'js/pages/datatables.init.js'
+        'js/pages/datatables.init.js',
+        'js/pages/article.index.js',
     ];
 
     public $depends = [
