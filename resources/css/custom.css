@@ -43,3 +43,11 @@ textarea {
 .page-title-box .page-title-right {
     margin-top: unset;
 }
+.article-image-wrap {
+    display: inline-block;
+    margin: 8px;
+    border: 1px solid rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    padding: 6px;
+    text-align: center;
+}
