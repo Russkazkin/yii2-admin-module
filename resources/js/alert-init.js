@@ -4,6 +4,7 @@ $(document).ready(function () {
     sweetAlert('.article-list-delete', '/admin/blog/article/delete');
     sweetAlert('#category-delete', '/admin/blog/category/delete', false);
     sweetAlert('#tag-delete', '/admin/blog/tag/delete', false);
+    sweetAlert('#article-delete', '/admin/blog/article/delete', false);
 });
 function sweetAlert(target, url, list = true) {
     $(target).on("click", function (event) {
