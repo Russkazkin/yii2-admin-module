@@ -279,18 +279,8 @@ AdminAsset::register($this);
                             </li>
                             <?php endif; ?>
                             <?php if ($this->params['editorPermissions']): ?>
-                            <li class="has-submenu">
-                                <a href="/admin/blog/comment/index">Comments <div class="arrow-down"></div></a>
-                                <ul class="submenu">
-                                    <li>
-                                        <a href="/admin/blog/comment/index">List</a>
-                                    </li>
-                                    <?php if ($this->params['adminPermissions']): ?>
-                                    <li>
-                                        <a href="/admin/blog/comment/create">Create</a>
-                                    </li>
-                                    <?php endif; ?>
-                                </ul>
+                            <li>
+                                <a href="/admin/blog/comment/index">Comments</a>
                             </li>
                             <?php endif; ?>
                         </ul>
